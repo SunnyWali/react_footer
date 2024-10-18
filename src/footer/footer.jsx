@@ -1,17 +1,17 @@
 import React from "react";
 import './footer.css';
 import fb from '../assets/fbimg.jpeg';
-import twitter from '..assets/twitterimg.jpeg';
+import twitter from '../assets/twitterimg.jpeg';
 import linkedin from '../assets/linkedinimg.jpeg';
 import insta from '../assets/instaimg.jpeg';
 
-const footer=()=>
+const Footer=()=>
 {
     return (
         <div className="footer">
             <div className="sb__footer section_padding">
                 <div className="sb__footer-links">
-                    <div className="sb__footer-links-div">
+                    <div className="sb__footer-links_div">
                         <h4>For Bussiness </h4>
                         <a href="/employer">
                         <p> Employer </p>
@@ -88,4 +88,4 @@ const footer=()=>
     )
 }
 
-export default footer;
+export default Footer;
